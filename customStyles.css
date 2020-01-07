@@ -1,31 +1,54 @@
-.bg-custom-nav {
-    background-color: rgba(0, 0, 0, 0.582);
+/* NAVBAR */
+.navbar-brand > img {
+    height: 55px;
 }
 
-.jumbotron {
-    background: url("stock-white.jpg");
-    background-size: cover;
-    padding-top: 80px;
-}
-
-.bg-custom-primary {
-    border: 2px solid rgba(255, 255, 255, 0.493);
-    background-color: rgba(250, 245, 245, 0.055);
-}
-
-.bg-custom-primary:hover {
-    color: rgb(250, 245, 245);
-    border: 2px solid rgb(250, 245, 245);
-    background-color: rgba(0, 0, 0, 0.582);
-}
-
-.lead {
-    text-shadow: 1px 1px 1px black;
-}
-
-.squared {
-    border-radius: 0;
-}
-.blur-bg {
+.custom-nav-bg {
+    background-color: rgba(255, 255, 255, 0.363);
     backdrop-filter: blur(10px);
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+    background: url("images/stock-white.jpg");
+}
+
+#learnMoreMain {
+    color: rgb(14, 189, 189);
+    background-color: white;
+    border: 1px solid rgb(14, 189, 189);
+}
+
+#learnMoreMain:hover {
+    color: white;
+    background-color: rgb(14, 189, 189);
+    border: 1px solid white;
+}
+
+/* TESTING */
+.showbg {
+    background-color: lightcyan;
+}
+
+.custom-rounded {
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.bg-custom-dark-yellow {
+    background-color:rgb(187, 187, 14);
+}
+
+.border-custom-dark-yellow {
+    border-color: rgb(187, 187, 14);
+}
+
+.fa {
+    font-size: 50px;
+    padding: 15px;
+}
+
+.fa:hover {
+    cursor: pointer;
 }
