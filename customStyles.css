@@ -1,3 +1,9 @@
+body {
+    font-weight: lighter;
+    font-family: 'Roboto';
+    color: rgb(109, 108, 108);
+}
+
 /* NAVBAR */
 .navbar-brand > img {
     height: 55px;
@@ -11,19 +17,25 @@
 
 /* JUMBOTRON */
 .jumbotron {
-    background: url("images/stock-white.jpg");
-}
-
-#learnMoreMain {
-    color: rgb(14, 189, 189);
+    /*background: url("images/stock-white.jpg");*/
     background-color: white;
-    border: 1px solid rgb(14, 189, 189);
 }
 
-#learnMoreMain:hover {
-    color: white;
-    background-color: rgb(14, 189, 189);
+#learnMoreMain:hover, .btn-custom-teal:hover {
+    color: #68C8C6 !important;
+    background-color: white;
+    border: 1px solid #68C8C6;
+}
+
+#learnMoreMain, .btn-custom-teal {
+    color: white !important;
+    background-color: #68C8C6;
     border: 1px solid white;
+    border-radius: 0;
+}
+
+.btn-custom-teal {
+    padding-bottom: 10px;
 }
 
 /* TESTING */
@@ -35,15 +47,36 @@
     border-radius: 8px;
     border: 2px solid black;
 }
-
+/*
 .bg-custom-dark-yellow {
     background-color:rgb(187, 187, 14);
 }
 
 .border-custom-dark-yellow {
     border-color: rgb(187, 187, 14);
+}*/
+
+.bg-custom-teal {
+    background-color: #68C8C6;
 }
 
+.border-custom-teal {
+    border-color: #68C8C6;
+}
+
+.input-custom-teal {
+    box-shadow: none;
+    outline: none;
+    border-radius: 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+.input-custom-teal:focus {
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #68C8C6;
+}
 .fa {
     font-size: 50px;
     padding: 15px;
@@ -51,4 +84,13 @@
 
 .fa:hover {
     cursor: pointer;
+}
+
+.leadershipHeading {
+    font-size: 2em;
+}
+
+.mailrow {
+    background-color: #68C8C6;
+    padding: 1px;
 }
