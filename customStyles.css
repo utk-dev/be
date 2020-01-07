@@ -3,7 +3,7 @@
 body {
     font-weight: lighter;
     font-family: 'Roboto';
-    color: rgb(109, 108, 108);
+    color: rgb(88, 88, 88);
 }
 
 /* NAVBAR */
@@ -12,9 +12,9 @@ body {
 }
 
 .custom-nav-bg {
-    background-color: rgba(255, 255, 255, 0.363);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(238, 232, 232, 0.363);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 
@@ -101,7 +101,7 @@ body {
 }
 
 .doSomething {
-    min-height: 200px;
+    min-height: 250px;
     border-radius: 0;
 }
 
