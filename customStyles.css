@@ -99,3 +99,16 @@ body {
     background-color: #68C8C6;
     padding: 1px;
 }
+
+.doSomething {
+    min-height: 200px;
+    border-radius: 0;
+}
+
+.doSomething > a {
+    color: rgb(109, 108, 108);
+}
+
+.doSomething > a:active {
+    text-decoration: none;
+}
