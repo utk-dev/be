@@ -1,0 +1,31 @@
+.bg-custom-nav {
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.jumbotron {
+    background: url("stock-white.jpg");
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.bg-custom-primary {
+    border: 2px solid rgba(255, 255, 255, 0.493);
+    background-color: rgba(250, 245, 245, 0.055);
+}
+
+.bg-custom-primary:hover {
+    color: rgb(250, 245, 245);
+    border: 2px solid rgb(250, 245, 245);
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.lead {
+    text-shadow: 1px 1px 1px black;
+}
+
+.squared {
+    border-radius: 0;
+}
+.blur-bg {
+    backdrop-filter: blur(10px);
+}
