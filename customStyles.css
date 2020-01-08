@@ -1,9 +1,32 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
 body {
-    font-weight: lighter;
-    font-family: 'Roboto';
+    font-family: 'Cutive';
+    font-weight: 500;
     color: rgb(88, 88, 88);
+}
+
+.head1 {
+    font-family: 'Satisfy';
+}
+
+.cutify {
+    font-family: 'Cutive';
+}
+
+.cutify-bold {
+    font-family: 'Cutive';
+    font-weight: bold;
+}
+
+.infoCard {
+    height: 450px;
+    width: 100%;
+    background: url('images/Framework.png') center;
+}
+
+.card {
+    border-radius: 0;
 }
 
 /* NAVBAR */
@@ -17,10 +40,16 @@ body {
     -webkit-backdrop-filter: blur(20px);
 }
 
+.custom-nav-bg-dark {
+    color: white;
+    background-color: rgba(37, 37, 37, 0.678);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
 
 /* JUMBOTRON */
 .jumbotron {
-    /*background: url("images/stock-white.jpg");*/
+    /*background: url("images/stock-white.jpg") 50% 50%*/
     background-color: white;
 }
 
@@ -95,6 +124,12 @@ body {
     font-size: 2em;
 }
 
+.nav-link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin: auto 15px;
+}
+
 .mailrow {
     background-color: #68C8C6;
     padding: 1px;
@@ -111,4 +146,19 @@ body {
 
 .doSomething > a:active {
     text-decoration: none;
+}
+
+#learnMoreMain {
+    color: black !important;
+    background-color: white;
+    border: 2px solid black;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#learnMoreMain:hover {
+    color: white !important;
+    background-color: black;
+    border: 2px solid black;
 }
