@@ -226,14 +226,18 @@ body {
 }
 
 
-.custom-tshadow {
+/* Make text stand out from the blur background */
+.custom-card-text-shadow {
     text-shadow: 1px 1px 1px black;
 }
 
-footer {
-    font-family: 'Raleway';
-}
+footer { font-family: 'Raleway'; }
 
+
+/* 
+   Firefox does not suppport backdrop-filter blur effect, 
+   this code removes the blur effect from naviation-bar  
+*/
 @supports not (backdrop-filter: blur(20px)) {
     .custom-nav-bg {
         background-color: #f1f0f0;
@@ -241,6 +245,14 @@ footer {
     }
 }
 
+
+/* ANIMATED SOCIAL MEDIA ICONS */
+
+
+
+
+
+/* ANIMATED HAMBURGER MENU */
 .icon-bar {
 	width: 22px; 
 	height: 2px;
@@ -250,39 +262,21 @@ footer {
 	margin-top: 4px
 }
 
- .navbar-toggler {
-    border: 0px;
-}
-
-
-.navbar-toggler:focus {
-    outline: none;
-}
-
-
+.navbar-toggler { border: 0px; }
+.navbar-toggler:focus { outline: none; }
 .navbar-toggler .top-bar {
     transform: rotate(45deg);
     transform-origin: 10% 10%;
-  }
+}
+.navbar-toggler .middle-bar { opacity: 0; }
   
-  .navbar-toggler .middle-bar {
-    opacity: 0;
-  }
-  
-  .navbar-toggler .bottom-bar {
+.navbar-toggler .bottom-bar {
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
-  }
-  
-  .navbar-toggler.collapsed .top-bar {
-    transform: rotate(0);
-  }
-  
-  .navbar-toggler.collapsed .middle-bar {
-    opacity: 1;
-  }
-  
-  .navbar-toggler.collapsed .bottom-bar {
-    transform: rotate(0);
-  } 
+}
+    
+.navbar-toggler.collapsed .top-bar { transform: rotate(0); }
+.navbar-toggler.collapsed .middle-bar { opacity: 1; }
+.navbar-toggler.collapsed .bottom-bar { transform: rotate(0); } 
+
   
