@@ -170,12 +170,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
 #learnMoreMain:hover, .btn-custom-teal:hover {
     color: white !important;
     background-color: black;
