@@ -239,7 +239,8 @@ footer { font-family: 'Raleway'; }
 }
 
 .custom-size {
-    max-width: 55px;
+    width: 55px;
+    height: 55px;
 }
 
 
