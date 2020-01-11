@@ -170,6 +170,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
 #learnMoreMain:hover, .btn-custom-teal:hover {
     color: white !important;
     background-color: black;
@@ -205,8 +211,6 @@ body {
 
 .dropdown-menu {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
 }
 
 .custom-large-bg {
@@ -246,7 +250,11 @@ footer { font-family: 'Raleway'; }
 
 
 
-
+.fa-heart {
+    font-size: 15px;
+    padding: 3px;
+    color: red;
+}
 
 /* ANIMATED HAMBURGER MENU */
 .icon-bar {
