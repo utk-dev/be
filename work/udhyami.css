@@ -1,0 +1,12 @@
+.udhyami-back {
+    background: url("../images/sample.jpg");
+}
+
+h5, h3 {
+    font-weight: bold;
+}
+
+body {
+    color: black;
+    font-family: 'Raleway';
+}
