@@ -1,5 +1,11 @@
 .udhyami-back {
-    background: url("../images/sample.jpg");
+    background: url("udhyami/udhyamiMain.jpg");
+    background-size: cover;
+}
+
+.udhyami-front {
+    backdrop-filter: blur(2px);
+    text-shadow: 1px 1px 1px black;
 }
 
 h5, h3 {
@@ -10,3 +16,4 @@ body {
     color: black;
     font-family: 'Raleway';
 }
+

@@ -19,11 +19,22 @@ body {
     font-weight: bold;
 }
 
+.learningJourneys {
+    background: url("images/learningJourneys.JPG");
+}
+
+.leadershipCircle {
+    background: url("images/leadershipCircle.jpg");
+}
+
+.collaborativeProjects {
+    background: url("images/collaborativeProjects.jpg");
+}
+
 .infoCard {
     height: 450px;
     width: 100%;
-    background: url('images/LJ.JPG');
-    background-size: cover;
+    background-size: cover;;
 }
 
 .card {
