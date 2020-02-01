@@ -1,6 +1,7 @@
 .udhyami-back {
     background: url("udhyami/udhyamiMain.jpg");
     background-size: cover;
+    background-position: top;
 }
 
 .udhyami-front {

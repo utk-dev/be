@@ -6,6 +6,12 @@ body {
     color: rgb(88, 88, 88);
 }
 
+.raleway-font {
+    font-family: 'Raleway';
+    color: black;
+    font-size: 1.1rem;
+}
+
 .head1 {
     font-family: 'Satisfy';
 }
@@ -34,7 +40,8 @@ body {
 .infoCard {
     height: 450px;
     width: 100%;
-    background-size: cover;;
+    background-size: cover;
+    background-position: center;
 }
 
 .card {
@@ -220,7 +227,6 @@ body {
 
 .custom-large-bg {
     background: url('images/sample.jpg');
-    background-size: cover;
 }
 
 
