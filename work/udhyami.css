@@ -4,6 +4,11 @@
     background-position: top;
 }
 
+.neenv-back {
+    background: url("../images/sample.jpg");
+    background-size: cover;
+}
+
 .udhyami-front {
     backdrop-filter: blur(2px);
     text-shadow: 1px 1px 1px black;

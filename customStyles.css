@@ -12,6 +12,10 @@ body {
     font-size: 1.1rem;
 }
 
+.showbg {
+    background-color: aqua;
+}
+
 .head1 {
     font-family: 'Satisfy';
 }
