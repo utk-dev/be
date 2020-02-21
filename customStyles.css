@@ -230,7 +230,10 @@ body {
 }
 
 .custom-large-bg {
-    background: url('images/sample.jpg');
+    background: url('images/Leadership-back.JPG');
+    background-size: cover;
+    background-position: bottom;
+    background-position: right;
 }
 
 
@@ -260,6 +263,10 @@ footer { font-family: 'Raleway'; }
 .custom-size {
     width: 55px;
     height: 55px;
+}
+
+.special {
+    font-weight: bold;
 }
 
 

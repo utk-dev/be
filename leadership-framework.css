@@ -1,0 +1,40 @@
+.jumbo-back {
+    background: url('images/Leadership-back.JPG');
+    background-size: cover;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+.leaderCard {
+    height: 350px;
+    width: 100%;
+}
+
+.immersion { 
+    background: url('images/leadership-cards/immersion.jpg'); 
+    background-size: cover;
+    background-position: center;
+
+}
+.experimentation { 
+    background: url('images/leadership-cards/experimentation.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+.transformation { 
+    background: url('images/leadership-cards/transformation.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+.mentorship { 
+    background: url('images/leadership-cards/mentorship.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+.community { 
+    background: url('images/leadership-cards/community.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
