@@ -5,8 +5,14 @@
     background-position: center;
 }
 
+.min-wd {
+    min-width: 250px !important;
+    font-size: large;
+}
+
 body {
     font-family: 'Raleway';
+    color: black;
 }
 
 .iconify {

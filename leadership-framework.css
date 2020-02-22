@@ -5,6 +5,12 @@
 
 body {
     font-family: 'Raleway';
+    color: black;
+}
+
+.min-wd {
+    width: 250px !important;
+    font-size: large;
 }
 
 .leaderCard {

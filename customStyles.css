@@ -221,11 +221,34 @@ body {
     background-color: #AEE1CD;
 }
 
+.custom-notif {
+    position: fixed;
+    font-family: 'Raleway';
+    font-size: 14px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.notif-link {
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 20px;
+}
+
 .card {
     border: 0;
 }
 
 .dropdown-menu {
+    background-color: rgba(251, 251, 251, 0.95);
+    border-radius: 0;
+    border: none;
+    box-shadow: 1px 1px 15px 1px rgb(189, 185, 185);
+    backdrop-filter: blur(10px) !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -234,6 +257,10 @@ body {
     background-size: cover;
     background-position: bottom;
     background-position: right;
+}
+
+.custom-spacing {
+    line-height: 1.6;
 }
 
 
@@ -252,7 +279,6 @@ footer { font-family: 'Raleway'; }
 @supports not ((backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px))) {
     .custom-nav-bg {
         background-color: #f1f0f0;
-        box-shadow: 0px -25px 50px -5px black;
     }
 }
 
