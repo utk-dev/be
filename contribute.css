@@ -1,0 +1,18 @@
+.jumbo-back {
+    background: url('images/Contribute-back.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Raleway';
+    color: black;
+}
+
+.min-wd {
+    width: 300px;
+}
+
+.custom-shadow {
+    text-shadow: 2px 2px 5px black;
+}
