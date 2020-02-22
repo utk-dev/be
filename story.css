@@ -6,3 +6,7 @@ body {
     font-family: 'Raleway';
     color: black;
 }
+
+.min-wd {
+    width: 300px;
+}
