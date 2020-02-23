@@ -1,0 +1,12 @@
+.neenv-back {
+    background: url('neenv/neenv-back.JPG');
+    background-size: cover;
+}
+
+.neenv-backdrop {
+    text-shadow: 2px 2px 6px black;
+}
+
+.rale-font {
+    font-family: 'Raleway';
+}

@@ -1,0 +1,25 @@
+.udhyami-back {
+    background: url("udhyami/udhyamiMain.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.neenv-back {
+    background: url("../images/sample.jpg");
+    background-size: cover;
+}
+
+.udhyami-front {
+    backdrop-filter: blur(2px);
+    text-shadow: 1px 1px 1px black;
+}
+
+h5, h3 {
+    font-weight: bold;
+}
+
+body {
+    color: black;
+    font-family: 'Raleway';
+}
+
