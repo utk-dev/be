@@ -10,3 +10,7 @@ body {
 .min-wd {
     width: 300px;
 }
+
+.img-restrict {
+    max-width: 700px;
+}

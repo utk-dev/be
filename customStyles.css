@@ -3,7 +3,16 @@
 body {
     font-family: 'Cutive';
     font-weight: 500;
-    color: rgb(88, 88, 88);
+    overflow-x: hidden;
+}
+
+.heavyLink {
+    color: black;
+}
+
+.heavyLink:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .raleway-font {
