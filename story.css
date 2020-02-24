@@ -13,4 +13,5 @@ body {
 
 .img-restrict {
     max-width: 700px;
+    height: auto !important;
 }
