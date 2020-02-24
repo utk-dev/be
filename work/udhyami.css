@@ -10,8 +10,7 @@
 }
 
 .udhyami-front {
-    backdrop-filter: blur(2px);
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 4px 4px 6px black;
 }
 
 h5, h3 {

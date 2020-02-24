@@ -1,11 +1,10 @@
-.jumbo-back {
-    background: url('images/Leadership-back.JPG');
-    background-size: cover;
-}
-
 body {
     font-family: 'Raleway';
     color: black;
+}
+
+.custom-bottom-margin {
+    margin-bottom: -20px;
 }
 
 .min-wd {

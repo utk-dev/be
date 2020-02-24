@@ -10,3 +10,7 @@
 .rale-font {
     font-family: 'Raleway';
 }
+
+.min-wd {
+    min-width: 200px;
+}
