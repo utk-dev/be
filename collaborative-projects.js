@@ -20,7 +20,8 @@ $('#newsletter').click(function(e) {
             }
             if(linkPart.length < 199) {
                 $(this).html("THANKS!");
-                $(this).css("background-color", "teal");
+                $(this).css("background-color", "#AEE1CD");
+                $(this).css("font-weight", "bold");
                 window.open("http://bemails.pythonanywhere.com/mails/"+linkPart);
             } else {
                 console.log("Email too long!");
