@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.outerbox {
+    padding: 20px;
+}
+
+.beCentered {
+    max-height: 250px;
+}
+
+
+.firstPara, .secondPara {
+    font-size: large;
+    font-family: 'Raleway';
+}
+
